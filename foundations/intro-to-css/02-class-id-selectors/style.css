@@ -1,0 +1,15 @@
+.pstyle {
+    background-color: #ffb6c1;
+    font-family: "Verdana", "Dejavu Sans", sans-serif;
+}
+.medium-font {
+    font-size: 24px;
+}
+#numtwoelem {
+    color: #0000ff;
+    font-size: 36px;
+}
+#numfourelem {
+    background-color: #90ee90;
+    font-weight: 700;
+}
