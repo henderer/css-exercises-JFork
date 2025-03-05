@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +23,17 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  /* margin-left: 330px; */
+  margin-left: auto;
 }
+/*
+The hard way:
+This is  box-sizing: content-box (default setting), so...
+DIV THREE ends up being 200px (content) + 
+(32*2=64px for padding) + (3*2=6px for border) = 200 + 64 + 6 = 270px.
+The container is 600px wide, so the margin-left of 330px.
+...
+The easy way:
+margin-left: auto. It automatically takes up all the space available to the left of the element.
+*/
